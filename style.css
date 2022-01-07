@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+Body {
+    font-size: 100%;
+    height: 900px;
+    background: linear-gradient(#ffffff, #ffffff, #FEC200);
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email {
+    color: #C8BCBD;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.mancha {
+    height: 212px;
+    width: 212px;
+}
+
+#name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.script {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFE07D;
+    border-radius: 6px;
+    width: 310px;
+    height: 28px;
+    margin: 5px;
+}
+
+.meio {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 40px;
+justify-content: center;
+}
+
+.secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.skills {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.htmlicon {
+    height: 1.72cm;
+    width: 1.22;
+}
+
+.cssicon {
+    height: 1.72cm;
+    width: 1.22;
+}
+
+.subtitle {
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    background-color: #FEC200;
+    border-radius: 6px;
+    height: 45px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idiomas {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.imgskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    width: 200px;
+}
+
+.imgpaises {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    gap: 40px;
+}
+
+.eua {
+    height: 1.14cm;
+    width: 1.82cm;
+}
+
+.spain {
+    height: 1.14cm;
+    width: 1.55cm;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    max-height: 28px;
+    margin: 30px;
+}
+ .midias {
+    display: flex;
+    flex-direction: row;
+    width: 19px;
+    height: 19px;
+    gap: 40px;
+    justify-content: center;
+ }
